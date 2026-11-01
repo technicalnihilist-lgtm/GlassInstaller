@@ -18,10 +18,10 @@ Android 9+ (API 28) · Kotlin + Jetpack Compose · Material 3 · glassmorphism U
 
 ## Download
 
-Latest APK: **[GlassInstaller-2.0.apk](GlassInstaller-2.0.apk)** — sideload karne ke liye
+Latest APK: **[GlassInstaller-2.0.apk](https://github.com/technicalnihilist-lgtm/GlassInstaller/releases/download/v2.0/GlassInstaller-2.0.apk)** (22 MB) — sideload karne ke liye
 `Settings → Apps → Special access → Install unknown apps` mein browser/file manager ko allow karna hoga.
 
-Har push par GitHub Actions naya APK build karta hai (artifact name: `GlassInstaller-debug`).
+Har push par GitHub Actions naya APK build karta hai (artifact name: `GlassInstaller-debug`). Saare releases: [releases page](https://github.com/technicalnihilist-lgtm/GlassInstaller/releases).
 
 ## Kya check hota hai
 
@@ -51,7 +51,7 @@ Har push par GitHub Actions naya APK build karta hai (artifact name: `GlassInsta
 ## Build karo
 
 ```bash
-git clone https://github.com/<your-user>/GlassInstaller.git
+git clone https://github.com/technicalnihilist-lgtm/GlassInstaller.git
 cd GlassInstaller
 ./gradlew assembleDebug        # ya Android Studio mein kholo aur Run dabao
 ```
